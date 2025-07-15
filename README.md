@@ -1,34 +1,32 @@
 # CovidTravelProject
 Final Project for INFO 2201
 
-Main Idea
-	Our objective in this project was to analyze how international travel trends (for both US and foreign citizens) shifted during and after the COVID-19 pandemic and how these changes related to US COVID-19 case rates. 
+### Main Idea
+Our objective in this project was to analyze how international travel trends (for both US and foreign citizens) shifted during and after the COVID-19 pandemic and how these changes related to US COVID-19 case rates. 
 
 
 
-Data Collection
+### Data Collection
 
 
 
-Data Cleaning
+### Data Cleaning
 
 
 
-
-What We'll Do
-
-
-
-Restrictions
+### What We'll Do
 
 
 
-Understanding Our Data
+### Restrictions
 
 
 
+### Understanding Our Data
 
-Visualizations
+
+
+### Visualizations
 
 <img width="1333" height="617" alt="image" src="https://github.com/user-attachments/assets/ee4b47f6-7915-4084-b853-21df9d352e8d" />
 
