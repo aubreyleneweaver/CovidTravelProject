@@ -2,6 +2,7 @@
 Final Project for INFO 2201
 
 Main Idea
+	Our objective in this project was to analyze how international travel trends (for both US and foreign citizens) shifted during and after the COVID-19 pandemic and how these changes related to US COVID-19 case rates. 
 
 
 
