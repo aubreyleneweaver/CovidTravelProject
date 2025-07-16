@@ -33,7 +33,7 @@ This dataset provided insight into movement across the U.S. Border during the sa
 
 ### What We'll Do
 
-
+This project looks at how COVID-19 changed international travel to and from the US between 2020-2024. We'll study the connection between COVID cases and travel patterns for both Americans traveling abroad and foreigners visiting the US. We want to see if more COVID cases meant less travel, and if fewer cases meant more travel. We'll also compare how Americans and foreigners adjusted their travel habits during different stages of the pandemic - the beginning, major outbreaks, and recovery. Using 2019 travel numbers as our starting point, we'll figure out if COVID permanently changed how people travel internationally or if travel went back to normal levels. By comparing travel before, during, and after the pandemic, we'll understand if today's travel patterns are the "new normal" or if things have gone back to how they were before COVID.
 
 ### Restrictions
 
