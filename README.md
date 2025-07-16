@@ -37,11 +37,13 @@ This project looks at how COVID-19 changed international travel to and from the 
 
 ### Restrictions
 
-
+We won't include specific travel rules, quarantine requirements, or vaccine mandates that different countries implemented during the pandemic, as these changed frequently and varied significantly by location. We also won't consider economic factors such as reduced flights, cancellations, or higher travel costs that may have influenced people's travel decisions - we're only focusing on how COVID-19 case numbers relate to travel amounts.
 
 ### Understanding Our Data
 
-
+We use two main datasets for this analysis. The WHO COVID-19 data has daily case and death counts from January 2020 to June 2025 for 240 countries. We focus on US data, which provides 1,983 daily records to track COVID-19 trends throughout the pandemic.
+The US International Air Travel Statistics cover the period from January 2019 to May 2025, providing monthly counts of people entering and leaving the US. It separates U.S. citizens from foreign citizens, allowing us to compare how these groups traveled differently. Having 2019 data allows us to compare pre-pandemic numbers.
+Both datasets cover the same time period well. Since people make travel decisions based on overall trends rather than daily changes, we convert the daily COVID-19 data into monthly averages to match the travel data. This allows us to see how COVID-19 case numbers are connected to international travel patterns.
 
 ### Visualizations
 
