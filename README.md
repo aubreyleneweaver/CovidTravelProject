@@ -28,22 +28,26 @@ This dataset provided insight into movement across the U.S. Border during the sa
 
 
 ### Data Cleaning
+To effectively perform meaningful analysis, we needed to clean our data, as we were working with two different datasets that had inconsistent formats, different naming conventions, and different time scales. For our WHO COVID-19 dataset, we filtered the data only to include U.S. entries, then extracted the Month, Year, and Month_number into their own columns. We grouped the data by month and year, summing new cases/deaths and taking the last value of the month for cumulative totals. For the U.S. travel dataset, we renamed columns to match the naming conventions of the WHO data and sorted the data by Year, Month_number, and Month. We then merged the two datasets on these shared columns, created a Timestamp column for easier analysis, and exported the cleaned, combined dataset to a new CSV file for visualization. 
 
 
 
 ### What We'll Do
-
 This project looks at how COVID-19 changed international travel to and from the US between 2020-2024. We'll study the connection between COVID cases and travel patterns for both Americans traveling abroad and foreigners visiting the US. We want to see if more COVID cases meant less travel, and if fewer cases meant more travel. We'll also compare how Americans and foreigners adjusted their travel habits during different stages of the pandemic - the beginning, major outbreaks, and recovery. Using 2019 travel numbers as our starting point, we'll figure out if COVID permanently changed how people travel internationally or if travel went back to normal levels. By comparing travel before, during, and after the pandemic, we'll understand if today's travel patterns are the "new normal" or if things have gone back to how they were before COVID.
 
-### Restrictions
 
+
+### Restrictions
 We won't include specific travel rules, quarantine requirements, or vaccine mandates that different countries implemented during the pandemic, as these changed frequently and varied significantly by location. We also won't consider economic factors such as reduced flights, cancellations, or higher travel costs that may have influenced people's travel decisions - we're only focusing on how COVID-19 case numbers relate to travel amounts.
 
-### Understanding Our Data
 
+
+### Understanding Our Data
 We use two main datasets for this analysis. The WHO COVID-19 data has daily case and death counts from January 2020 to June 2025 for 240 countries. We focus on US data, which provides 1,983 daily records to track COVID-19 trends throughout the pandemic.
 The US International Air Travel Statistics cover the period from January 2019 to May 2025, providing monthly counts of people entering and leaving the US. It separates U.S. citizens from foreign citizens, allowing us to compare how these groups traveled differently. Having 2019 data allows us to compare pre-pandemic numbers.
 Both datasets cover the same time period well. Since people make travel decisions based on overall trends rather than daily changes, we convert the daily COVID-19 data into monthly averages to match the travel data. This allows us to see how COVID-19 case numbers are connected to international travel patterns.
+
+
 
 ### Visualizations
 
