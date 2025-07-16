@@ -30,6 +30,8 @@ This dataset provided insight into movement across the U.S. Border during the sa
 ### Data Cleaning
 To effectively perform meaningful analysis, we needed to clean our data, as we were working with two different datasets that had inconsistent formats, different naming conventions, and different time scales. For our WHO COVID-19 dataset, we filtered the data only to include U.S. entries, then extracted the Month, Year, and Month_number into their own columns. We grouped the data by month and year, summing new cases/deaths and taking the last value of the month for cumulative totals. For the U.S. travel dataset, we renamed columns to match the naming conventions of the WHO data and sorted the data by Year, Month_number, and Month. We then merged the two datasets on these shared columns, created a Timestamp column for easier analysis, and exported the cleaned, combined dataset to a new CSV file for visualization. 
 
+Note: 2019 travel data was excluded from the merged dataset due to the lack of COVID-19 data from that year, as cases were not yet being tracked on a global scale. While pre-pandemic travel data would have offered an interesting comparison, 2024 was the first full year without COVID-19-related travel restrictions in the U.S. and surpassed 2019 travel in specific metrics, providing a cleaner and more meaningful post-pandemic comparison.
+
 
 
 ### What We'll Do
